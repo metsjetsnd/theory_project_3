@@ -47,10 +47,10 @@ with open(tape_file) as f:
     #read tapes and store in list of lists
     tapes.append(list(line.strip()))
     print "Tape 1:", ''.join(map(str,tapes[0]))
-    for i in range(num_tapes - 1):
+    for i in range(1, num_tapes):
       line = f.readline()
       tapes.append(list(line.strip()))
-      print "Tape " + str(i + 2) + ": " + ''.join(map(str,tapes[i]))
+      print "Tape " + str(i + 1) + ": " + ''.join(map(str,tapes[i]))
     current_state = start
     current_indexes = []
     #start at left for all tapes
@@ -82,6 +82,7 @@ with open(tape_file) as f:
             break
           success = False
         if success != True:
+          print "No rule for current state and input character defined"
           current_state = reject
           break
       #move to next state
