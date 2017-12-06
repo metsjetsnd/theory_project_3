@@ -1,0 +1,62 @@
+Tape 1: xyz_
+Tape 2: ____
+1,2,0,0,q0,x,_,q1,x,x,R,R
+2,4,1,1,q1,y,_,q2,y,_,S,L
+3,5,1,0,q2,y,x,q2,y,y,R,L
+4,6,2,-1,q2,z,_,q3,z,_,S,R
+5,7,2,0,q3,z,y,q3,z,z,R,R
+6,8,3,1,q3,_,_,q4,_,_,S,S
+Accept
+Tape 1: xyz
+Tape 2: z
+Tape 1: xxyyzz_
+Tape 2: _______
+1,2,0,0,q0,x,_,q1,x,x,R,R
+2,3,1,1,q1,x,_,q1,x,x,R,R
+3,4,2,2,q1,y,_,q2,y,_,S,L
+4,5,2,1,q2,y,x,q2,y,y,R,L
+5,5,3,0,q2,y,x,q2,y,y,R,L
+6,6,4,-1,q2,z,_,q3,z,_,S,R
+7,7,4,0,q3,z,y,q3,z,z,R,R
+8,7,5,1,q3,z,y,q3,z,z,R,R
+9,8,6,2,q3,_,_,q4,_,_,S,S
+Accept
+Tape 1: xxyyzz
+Tape 2: zz
+Tape 1: xxxyyyzzz_
+Tape 2: __________
+1,2,0,0,q0,x,_,q1,x,x,R,R
+2,3,1,1,q1,x,_,q1,x,x,R,R
+3,3,2,2,q1,x,_,q1,x,x,R,R
+4,4,3,3,q1,y,_,q2,y,_,S,L
+5,5,3,2,q2,y,x,q2,y,y,R,L
+6,5,4,1,q2,y,x,q2,y,y,R,L
+7,5,5,0,q2,y,x,q2,y,y,R,L
+8,6,6,-1,q2,z,_,q3,z,_,S,R
+9,7,6,0,q3,z,y,q3,z,z,R,R
+10,7,7,1,q3,z,y,q3,z,z,R,R
+11,7,8,2,q3,z,y,q3,z,z,R,R
+12,8,9,3,q3,_,_,q4,_,_,S,S
+Accept
+Tape 1: xxxyyyzzz
+Tape 2: zzz
+Tape 1: xxxxyyyyzzzz_
+Tape 2: _____________
+1,2,0,0,q0,x,_,q1,x,x,R,R
+2,3,1,1,q1,x,_,q1,x,x,R,R
+3,3,2,2,q1,x,_,q1,x,x,R,R
+4,3,3,3,q1,x,_,q1,x,x,R,R
+5,4,4,4,q1,y,_,q2,y,_,S,L
+6,5,4,3,q2,y,x,q2,y,y,R,L
+7,5,5,2,q2,y,x,q2,y,y,R,L
+8,5,6,1,q2,y,x,q2,y,y,R,L
+9,5,7,0,q2,y,x,q2,y,y,R,L
+10,6,8,-1,q2,z,_,q3,z,_,S,R
+11,7,8,0,q3,z,y,q3,z,z,R,R
+12,7,9,1,q3,z,y,q3,z,z,R,R
+13,7,10,2,q3,z,y,q3,z,z,R,R
+14,7,11,3,q3,z,y,q3,z,z,R,R
+15,8,12,4,q3,_,_,q4,_,_,S,S
+Accept
+Tape 1: xxxxyyyyzzzz
+Tape 2: zzzz

@@ -1,0 +1,72 @@
+Tape 1: xyzxyzxyz_
+Tape 2: __________
+1,2,0,0,q0,x,_,q1,x,x,R,R
+2,4,1,1,q1,y,_,q2,y,_,S,L
+3,5,1,0,q2,y,x,q2,y,y,R,L
+4,6,2,-1,q2,z,_,q3,z,_,S,R
+5,7,2,0,q3,z,y,q3,z,z,R,R
+No rule for current state and input character defined
+Reject
+Tape 1: xyzxyzxyz
+Tape 2: z
+Tape 1: xyzxyz_
+Tape 2: _______
+1,2,0,0,q0,x,_,q1,x,x,R,R
+2,4,1,1,q1,y,_,q2,y,_,S,L
+3,5,1,0,q2,y,x,q2,y,y,R,L
+4,6,2,-1,q2,z,_,q3,z,_,S,R
+5,7,2,0,q3,z,y,q3,z,z,R,R
+No rule for current state and input character defined
+Reject
+Tape 1: xyzxyz
+Tape 2: z
+Tape 1: xxyyz_
+Tape 2: ______
+1,2,0,0,q0,x,_,q1,x,x,R,R
+2,3,1,1,q1,x,_,q1,x,x,R,R
+3,4,2,2,q1,y,_,q2,y,_,S,L
+4,5,2,1,q2,y,x,q2,y,y,R,L
+5,5,3,0,q2,y,x,q2,y,y,R,L
+6,6,4,-1,q2,z,_,q3,z,_,S,R
+7,7,4,0,q3,z,y,q3,z,z,R,R
+No rule for current state and input character defined
+Reject
+Tape 1: xxyyz
+Tape 2: zy
+Tape 1: xyyzz_
+Tape 2: ______
+1,2,0,0,q0,x,_,q1,x,x,R,R
+2,4,1,1,q1,y,_,q2,y,_,S,L
+3,5,1,0,q2,y,x,q2,y,y,R,L
+No rule for current state and input character defined
+Reject
+Tape 1: xyyzz
+Tape 2: y
+Tape 1: xy_
+Tape 2: ___
+1,2,0,0,q0,x,_,q1,x,x,R,R
+2,4,1,1,q1,y,_,q2,y,_,S,L
+3,5,1,0,q2,y,x,q2,y,y,R,L
+No rule for current state and input character defined
+Reject
+Tape 1: xy
+Tape 2: y
+Tape 1: yz_
+Tape 2: ___
+No rule for current state and input character defined
+Reject
+Tape 1: yz
+Tape 2: 
+Tape 1: x_
+Tape 2: __
+1,2,0,0,q0,x,_,q1,x,x,R,R
+No rule for current state and input character defined
+Reject
+Tape 1: x
+Tape 2: x
+Tape 1: zxyzxy_
+Tape 2: _______
+No rule for current state and input character defined
+Reject
+Tape 1: zxyzxy
+Tape 2: 
